@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Project</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        overflow-x: hidden;
+        box-sizing: border-box;
+      }
+      .sidenav {
+        /* border: 1px solid black; */
+        background-color: purple;
+        height: 600px;
+        position: sticky;
+        top: 0px;
+        overflow: scroll;
+        overflow-x: hidden;
+      }
+
+      .imgcenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .themes {
+        text-align: center;
+        margin-top: 13px;
+        color: white;
+      }
+      ul {
+        text-align: center;
+        list-style: none;
+        margin-top: 40px;
+        font-size: 20px;
+        padding: 10px;
+      }
+      li {
+        padding: 5px;
+      }
+      li:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+      }
+
+      li a {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .iconstyle {
+        display: flex;
+        justify-content: center;
+      }
+      .st1 {
+        padding: 10px;
+        color: white;
+      }
+      .bot {
+        text-align: center;
+        color: white;
+      }
+      .imgsty {
+        margin-top: 3px;
+        height: 400px;
+        width: 800px;
+        display: block;
+      }
+      h2 {
+        font-weight: bold;
+        color: purple;
+      }
+      .img1 {
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin: 5px;
+      }
+      .img2 {
+        width: 300px;
+        height: 300px;
+        float: left;
+        margin: 6px;
+      }
+      .fea1 {
+        background-color: lightcyan;
+        height: 300px;
+        margin: 10px;
+      }
+      .service-item {
+        margin-bottom: 10px;
+        padding: 50px;
+        background-color: rgba(124, 121, 121, 0.1);
+      }
+      .service-item .bi {
+        font-size: 72px;
+        padding: 20px 0;
+      }
+      .gallery1 {
+        margin-bottom: 10px;
+        padding: 50px;
+        background-color: antiquewhite;
+      }
+      .section {
+        margin-bottom: 10px;
+        padding: 50px;
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="sidenav col-3">
+        <div class="container">
+          <img
+            src="../public/images/img1.jpg"
+            class="img-fluid imgcenter mt-3 mr-3"
+            style="height: 150px; width: 150px; border-radius: 10px"
+            alt="img"
+          />
+          <h2 class="themes">THEMES</h2>
+          <hr />
+          <nav>
+            <ul>
+              <li><a href="#intro">Intro</a></li>
+              <hr />
+              <li><a href="#features">Features</a></li>
+              <hr />
+              <li><a href="#gallery">Gallery</a></li>
+              <hr />
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="icon">
+            <ul class="iconstyle">
+              <li class="bi-facebook st1"></li>
+              <li class="bi-instagram st1"></li>
+              <li class="bi-linkedin st1"></li>
+              <li class="bi-twitter st1"></li>
+            </ul>
+          </div>
+          <hr />
+          <div class="bot">
+            <p>Copyright @2023</p>
+            <p>Design by Allen</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side -->
+      <div class="col-9 rightside">
+        <div class="container">
+          <div class="container">
+            <img
+              class="img-fluid imgsty"
+              src="../public/images/img1.jpg"
+              alt="img"
+            />
+            <div id="intro" class="mt-2">
+              <h2>Introducing Blugoon</h2>
+              <p c>
+                HTML is the standard markup language for Web pages. With HTML
+                you can create your own Website. HTML is easy to learn - You
+                will enjoy it!
+              </p>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="left-text">
+                    <h4>Modern Web Design</h4>
+                    <p>
+                      You are allowed to use this template for commercial or
+                      personal websites. You are NOT allowed to redistribute
+                      this on template collection website. You can feature this
+                      template on your blog post.
+                    </p>
+                    <p>
+                      All photos in this template are from
+                      <a rel="nofollow" href="https://www.pexels.com">Pexels</a>
+                      website. Blugoon HTML Template is provided by Tooplate.
+                      Class aptent taciti sociosqu ad litora torquent per
+                      conubia nostra.
+                    </p>
+                    <div>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="right-image">
+                    <img
+                      src="../public/images/mountain-reflection.jpg"
+                      class=""
+                      height="250px"
+                      alt="Mountain Reflection"
+                    />
+                  </div>
+                </div>
+              </div>
+              
+
+              <hr />
+            </div>
+
+            <!-- features -->
+            <div id="features" class="feature">
+              <h2>Gretest Features</h2>
+              <p>
+                Present posuere fringilla elite, non maximus tellus posuere nec,
+                Nunc eu sapien nec est elementum sodales.
+              </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="service-item">
+                    <i class="bi bi-award-fill"></i>
+                    <h4>Top Performance</h4>
+                    <p>
+                      Donec sit amet tempor quam. Maecenas nec aliquam leo, sed
+                      tincidunt urna.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="service-item">
+                    <i class="bi bi-check-square-fill"></i>
+                    <h4>Trusted Service</h4>
+                    <p>
+                      Etiam at porta nulla, et euismod enim. Nullam semper ipsum
+                      et dui scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="service-item">
+                    <i class="bi bi-info-circle-fill"></i>
+                    <h4>Need Help?</h4>
+                    <p>
+                      Phasellus orci leo, elementum ac risus id, euismod porta
+                      lorem. Quisque feugiat.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="service-item">
+                    <i class="bi bi-question-circle-fill"></i>
+                    <h4>Quick Support</h4>
+                    <p>
+                      Mauris eu est vitae erat condimentum pellentesque. Fusce
+                      vehicula nunc.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- gallery -->
+            <div id="gallery" class="gallery1 mt-3">
+              <h2>Gallery</h2>
+              <p>
+                Donec sit amet enim tempor nisl fermentum aliquam. In
+                consectetur sapien eu nisi venenatis lobortis. Sed ullamcorper
+                tristique elit nec facilisis.
+              </p>
+              <div class="row">
+                <div class="col-4 mb-3">
+                  <img
+                    src="../public/images/img1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-4 mb-3">
+                  <img
+                    src="../public/images/img2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-4 mb-3">
+                  <img
+                    src="../public/images/img3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    src="../public/images/img3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    src="../public/images/img1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-4">
+                  <img
+                    src="../public/images/img2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact -->
+            <section id="contact" class="section contact-me mb-4 mt-4">
+              <div class="container">
+                <div class="section-heading">
+                  <h2>Contact</h2>
+                  <div class="line-dec"></div>
+                  <span
+                    >Aenean a consectetur mi, sit amet consequat velit. Mauris
+                    vitae nunc viverra, mattis arcu quis, vestibulum eros.
+                  </span>
+                </div>
+                <div class="row mt-3">
+                  <div class="right-content">
+                    <div class="container">
+                      <form id="contact" action="" method="post">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <fieldset>
+                              <input
+                                name="name"
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                placeholder="Your name..."
+                                required=""
+                              />
+                            </fieldset>
+                          </div>
+                          <div class="col-md-6">
+                            <fieldset>
+                              <input
+                                name="email"
+                                type="text"
+                                class="form-control"
+                                id="email"
+                                placeholder="Your email..."
+                                required=""
+                              />
+                            </fieldset>
+                          </div>
+                          <div class="col-md-12">
+                            <fieldset>
+                              <input
+                                name="subject"
+                                type="text"
+                                class="form-control"
+                                id="subject"
+                                placeholder="Subject..."
+                                required=""
+                              />
+                            </fieldset>
+                          </div>
+                          <div class="col-md-12">
+                            <fieldset>
+                              <textarea
+                                name="message"
+                                rows="6"
+                                class="form-control"
+                                id="message"
+                                placeholder="Your message..."
+                                required=""
+                              ></textarea>
+                            </fieldset>
+                          </div>
+                          <div class="col-md-12">
+                            <fieldset>
+                              <button
+                                type="submit"
+                                id="form-submit"
+                                class="btn btn-primary mt-3"
+                              >
+                                Send Message
+                              </button>
+                            </fieldset>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
